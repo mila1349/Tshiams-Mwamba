@@ -1,0 +1,232 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #0E294B;
+}
+
+/* FONT */
+h1{
+    text-transform: uppercase;
+    font-family: 'Lora', serif;
+    font-weight: lighter;
+    font-size: calc(24px + (60 - 24) * ((100vw - 300px) / (1600 - 300)));
+}
+h2{
+    font-family: 'Lora', serif;
+    font-weight: lighter;
+    font-size: calc(20px + (40 - 20) * ((100vw - 300px) / (1600 - 300)));
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+    opacity: 0.8;
+    font-size: calc(10px + (16 - 10) * ((100vw - 300px) / (1600 - 300)));
+    font-weight: 200;
+}
+h4, li{
+    font-family: 'Poppins', sans-serif;
+    font-size: calc(16px + (24 - 16) * ((100vw - 300px) / (1600 - 300)));
+    font-weight: 300;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    font-size: calc(12px + (16 - 12) * ((100vw - 300px) / (1600 - 300)));
+    font-weight: 300;
+    color: #CCB240;
+}
+
+.home{
+    width: 100%;
+    color: #fff;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+.small{
+    display: none !important;
+}
+.hero span{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: #fff; */
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding-left: 8rem;
+}
+.text h3{
+    margin-top: 1rem;
+}
+.image{
+    width: 60%;
+    height: 75%;
+    position: relative;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100px 12px 100px 12px;
+    position: relative;
+    z-index: 2;
+    filter: drop-shadow(22.4271px 11.2136px 17.9417px rgba(0, 0, 0, 0.25));
+}
+.line{
+    border: 3px solid #CCB240;
+    border-radius: 100px 12px 100px 12px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -7%;
+    left: -7%;
+    z-index: 1;
+}
+.container{
+    display: flex;
+    padding: 3rem 8rem;
+}
+.education span{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.education .text{
+    padding-left: 0;
+}
+.education span img{
+    width: 65%;
+    height: 80%;
+    border-radius: 20px;
+    filter: drop-shadow(22.4271px 11.2136px 17.9417px rgba(0, 0, 0, 0.25));
+}
+.stripe{
+    height: 3px;
+    background: #CCB240;
+    width: 100px;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+.title{
+    margin-bottom: 2rem;
+}
+.box{
+    background: #11256A;
+    padding: 1rem;
+    padding-left: 2.5rem;
+    padding-right: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    filter: drop-shadow(22.4271px 11.2136px 17.9417px rgba(0, 0, 0, 0.25));
+}
+.skills{
+    /* padding: 3rem 8rem; */
+    flex-direction: column;
+    
+}
+.skills .box{
+    width: 24%;
+    min-width: 200px;
+}
+.skill-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.skills .box h4{
+    margin-bottom: 1rem;
+}
+.experience{
+    flex-direction: column;
+}
+.experience .box{
+    display: flex;
+}
+.experience .box .text{
+    width: 100%;
+    padding-left: 2.5rem;
+}
+.image-exp{
+    width: 30%;
+    height:auto;
+}
+.image-exp img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.experience ul{
+    margin-top: 1.5rem;
+}
+.experience li{
+    margin-bottom: 0.5rem;
+    font-size: calc(12px + (16 - 12) * ((100vw - 300px) / (1600 - 300)));
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .container{
+        padding: 2rem;
+    }
+    .text{
+        padding-left: 2rem;
+    }
+    .small{
+        display: flex !important;
+    }
+    .hero{
+        padding: 1rem;
+        flex-direction: column;
+    }
+    .hero span, .hero .text{
+        width: 100%;
+    }
+    .big{
+        display: none !important;
+    }
+    .image img, .line{
+        border-radius: 60px 4px 60px 4px;
+    }
+    .education .text, .education .small, .education .small img{
+        width: 100%;
+    }
+    .title{
+        margin-bottom: 1rem;
+    }
+    .experience .box{
+        flex-direction: column;
+    }
+    .image-exp{
+        width: 100%;
+        height: 200px;
+        margin-bottom: 1rem;
+    }
+    .experience .text{
+        padding-left: 0 !important;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .skills .box{
+        margin-right: 0;
+        width: 100%;
+    }
+}
