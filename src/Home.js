@@ -1,5 +1,7 @@
 import React from 'react'
 import {motion} from 'framer-motion'
+import Text from './Text'
+import TextSlideUp from './TextSlideUp'
 
 const initial = {
     y:50,
@@ -15,13 +17,15 @@ const time = {
     duration:1
 }
 
+
+
 const once={ once: true }
 
 function Home() {
   return (
     <div className='home'>
         <div className="hero" style={{backgroundImage: "url(billgat.png)"}}>
-            <span className='small'>
+            <span className='spann small'>
                 <div className="image" >
                     <motion.img src="person.png" alt="" initial={initial} whileInView={view} transition={time} viewport={once}/>
                     <motion.div className="line"
@@ -33,12 +37,20 @@ function Home() {
             </span>
 
             <div className='text'>
-               <motion.h1 initial={initial} whileInView={view} transition={time} viewport={once}>Tshiams</motion.h1>
-               <motion.h1 initial={initial} whileInView={view} transition={time}   viewport={once}>Mwamba</motion.h1>
-                <motion.h3 initial={initial} whileInView={view} transition={time}  viewport={once}>Resourceful and innovative professional with expertise in all facets of customer services. Skilled inproviding strategic leadership of short and long-term goals through the use of innovative techniques. Adept at enhancing team performance, andproactively identifying opportunities for development and advencement. Provenability to make critical decisions during chllenges, perform in highly visible positions and work under pressure to meet deadlines. Looking to utilize my expertise and experience to develop a long-term career with future-oriented, reputable organization.</motion.h3>
+            <h1>
+                <Text text="Tshiams"  />   
+            </h1>
+            <h1>
+                <Text text="Mwamba"  />   
+            </h1>
+            <h3>
+                <TextSlideUp>
+                Resourceful and innovative professional with expertise in all facets of customer services. Skilled inproviding strategic leadership of short and long-term goals through the use of innovative techniques. Adept at enhancing team performance, andproactively identifying opportunities for development and advencement. Provenability to make critical decisions during chllenges, perform in highly visible positions and work under pressure to meet deadlines. Looking to utilize my expertise and experience to develop a long-term career with future-oriented, reputable organization.
+                 </TextSlideUp>
+            </h3>
             </div>
 
-            <span className='big'>
+            <span className='spann big'>
                 <div className="image" >
                     <motion.img src="person.png" alt="" initial={initial} whileInView={view} transition={time} viewport={once}/>
                     <motion.div className="line"
@@ -59,13 +71,16 @@ function Home() {
                         transition={time}
                         viewport={once}
                     ></motion.div>
-                    <motion.h2 initial={initial} whileInView={view} transition={time} viewport={once}>Education</motion.h2>
+                    <h2>
+                        <Text text="Education"  />   
+                    </h2>
+                    {/* <motion.h2 initial={initial} whileInView={view} transition={time} viewport={once}>Education</motion.h2> */}
                 </div>
-                <motion.span className='small' initial={initial} whileInView={view} transition={time} viewport={once}>
+                <motion.span className='edu-span small' initial={initial} whileInView={view} transition={time} viewport={once}>
                     <img src="education.jpg" alt="" />
                 </motion.span>
                 <ol>
-                <motion.div className="box" initial={initial} whileInView={view} transition={time} viewport={once}>
+                <motion.div className="box" initial={initial} whileInView={view} transition={time} viewport={once} whileHover={{}}>
                     <li><h4>Commuccation Certificate (2020 - 2021)</h4></li>
                     <p>at Full Sail University, Winter Park, FL</p>
                 </motion.div>
@@ -75,7 +90,7 @@ function Home() {
                 </motion.div>
                 </ol>
             </div>
-            <motion.span className='big' initial={initial} whileInView={view} transition={time} viewport={once}>
+            <motion.span className='edu-span big' initial={initial} whileInView={view} transition={time} viewport={once}>
                 <img src="education.jpg" alt="" />
             </motion.span>
         </div>
@@ -88,7 +103,10 @@ function Home() {
                     transition={time}
                     viewport={once}
                 ></motion.div>
-                <motion.h2 initial={initial} whileInView={view} transition={time} viewport={once}>Skills</motion.h2>
+                <h2>
+                    <Text text="Skills"  />   
+                </h2>
+                {/* <motion.h2 initial={initial} whileInView={view} transition={time} viewport={once}>Skills</motion.h2> */}
             </div>
             <div className="skill-container">
                 <motion.div className="box" initial={initial} whileInView={view} transition={time} viewport={once}>
@@ -165,7 +183,10 @@ function Home() {
                     transition={time}
                     viewport={once}
                 ></motion.div>
-                <motion.h2 initial={initial} whileInView={view} transition={time} viewport={once}>Experience</motion.h2>
+                <h2>
+                    <Text text="Experience"/>
+                </h2>
+                {/* <motion.h2 initial={initial} whileInView={view} transition={time} viewport={once}>Experience</motion.h2> */}
             </div>
             <motion.div className="box" initial={initial} whileInView={view} transition={time} viewport={once}>
                 <div className="image-exp">

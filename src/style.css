@@ -24,6 +24,8 @@ h3{
     opacity: 0.8;
     font-size: calc(10px + (16 - 10) * ((100vw - 300px) / (1600 - 300)));
     font-weight: 200;
+    line-height: 120%;
+
 }
 h4, li{
     font-family: 'Poppins', sans-serif;
@@ -54,7 +56,7 @@ p{
 .small{
     display: none !important;
 }
-.hero span{
+.spann{
     width: 48%;
     display: flex;
     flex-direction: column;
@@ -101,7 +103,7 @@ p{
     display: flex;
     padding: 3rem 8rem;
 }
-.education span{
+.edu-span{
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -116,6 +118,10 @@ p{
     height: 80%;
     border-radius: 20px;
     filter: drop-shadow(22.4271px 11.2136px 17.9417px rgba(0, 0, 0, 0.25));
+    transition: 1s;
+}
+.education span img:hover{
+    transform: scale(1.1);
 }
 .stripe{
     height: 3px;
@@ -135,6 +141,14 @@ p{
     margin-bottom: 1rem;
     border-radius: 8px;
     filter: drop-shadow(22.4271px 11.2136px 17.9417px rgba(0, 0, 0, 0.25));
+    transition: 1s;
+    cursor: pointer;
+    border: 3px solid #11256A;
+
+}
+.box:hover{
+    border: 3px solid #CCB240;
+    box-shadow: 10px 10px 8px rgba(204, 178, 64, 0.54);
 }
 .skills{
     /* padding: 3rem 8rem; */
@@ -197,7 +211,7 @@ p{
         padding: 1rem;
         flex-direction: column;
     }
-    .hero span, .hero .text{
+    .spann, .hero .text{
         width: 100%;
     }
     .big{
