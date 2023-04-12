@@ -45,7 +45,7 @@ function Home() {
             </h1>
             <h3>
                 <TextSlideUp>
-                Resourceful and innovative professional with expertise in all facets of customer services. Skilled inproviding strategic leadership of short and long-term goals through the use of innovative techniques. Adept at enhancing team performance, andproactively identifying opportunities for development and advencement. Provenability to make critical decisions during chllenges, perform in highly visible positions and work under pressure to meet deadlines. Looking to utilize my expertise and experience to develop a long-term career with future-oriented, reputable organization.
+                Highly resourceful, innovative professional with an extensive background in media communication and customer service. Provide strategic leadership through the use of innovative techniques to accomplish short and long-term goals. Proactively identifies opportunities for advancement and development, and enhances team performance. Ability to make critical decisions during challenges, perform in highly visible positions, and work under pressure. With my expertise and experience, I would like to explore long-term career opportunities with an organization that focuses on the future and has a positive reputation.
                  </TextSlideUp>
             </h3>
             </div>
@@ -81,12 +81,12 @@ function Home() {
                 </motion.span>
                 <ol>
                 <motion.div className="box" initial={initial} whileInView={view} transition={time} viewport={once} whileHover={{}}>
-                    <li><h4>Commuccation Certificate (2020 - 2021)</h4></li>
-                    <p>at Full Sail University, Winter Park, FL</p>
+                    <h4>Media Commucation Certificate (2020 - 2021)</h4>
+                    <p> FULL SAIL UNIVERSITY - Winter Park, FL</p>
                 </motion.div>
                 <motion.div className="box"initial={initial} whileInView={view} transition={time} viewport={once}>
-                    <li><h4>Associate of Art (2014 - 2019)</h4></li>
-                    <p>at Tarrant Country College - Fort Worth, TX</p>
+                    <h4>Associate of Art (2014 - 2019)</h4>
+                    <p>TARRANT COUNTRY COLLEGE - Fort Worth, TX</p>
                 </motion.div>
                 </ol>
             </div>
@@ -110,14 +110,13 @@ function Home() {
             </div>
             <div className="skill-container">
                 <motion.div className="box" initial={initial} whileInView={view} transition={time} viewport={once}>
-                    <h4>Lorem Ipsum</h4>
+                    
                     <ul>
                         <li><p>Social Media Monitoring</p></li>
-                        <li><p>/fk/twitter/Pinterest</p></li>
+                        <li><p>Inst/fb/twitter/Pinterest</p></li>
                         <li><p>Media Kit Creation</p></li>
-                        <li><p>Google workspace suit</p></li>
-                        <li><p>IMedia analysis, and media</p></li>
-                        <li><p>strategy</p></li>
+                        <li><p>Google workspace</p></li>
+                        <li><p>Media analysis & media strategy</p></li>
                         <li><p>Social Media Présence</p></li>
                         <li><p>Face-to-face network Meetup</p></li>
                         <li><p>Online presence</p></li>
@@ -125,9 +124,9 @@ function Home() {
                     </ul>
                 </motion.div>
                 <motion.div className="box" initial={initial} whileInView={view} transition={time} viewport={once}>
-                    <h4>Lorem Ipsum</h4>
+                    
                     <ul>
-                        <li><p>Content</p></li>
+                        <li><p>Content Creation</p></li>
                         <li><p>Audio/sound</p></li>
                         <li><p>SoundCloud, audacity</p></li>
                         <li><p>garage band</p></li>
@@ -142,22 +141,22 @@ function Home() {
                     </ul>
                 </motion.div>
                 <motion.div className="box" initial={initial} whileInView={view} transition={time} viewport={once}>
-                    <h4>Lorem Ipsum</h4>
+                    
                     <ul>
                         <li><p>Visual design</p></li>
                         <li><p>Moodboad</p></li>
                         <li><p>The rules of third</p></li>
                         <li><p>the rule in design</p></li>
                         <li><p>Color pallet visual balance indentefy</p></li>
-                        <li><p>manipilate view</p></li>
+                        <li><p>manipilate viewers</p></li>
                         <li><p>Writing and scheduling posts/buffer</p></li>
-                        <li><p>Hootsuite/Planoly/late/IF</p></li>
-                        <li><p>storage management</p></li>
-                        <li><p>dropbox. google storage etc</p></li>
+                        <li><p>Hootsuite/Planoly/late/IFttt</p></li>
+                        <li><p>cloud storage management</p></li>
+                        <li><p>dropbox. google storage </p></li>
                     </ul>
                 </motion.div>
                 <motion.div className="box" initial={initial} whileInView={view} transition={time} viewport={once}>
-                    <h4>Lorem Ipsum</h4>
+                    
                     <ul>
                         <li><p>Creating graphics</p></li>
                         <li><p>presenting Canva</p></li>
@@ -194,7 +193,7 @@ function Home() {
                 </div>
                 <div className="text">
                     <h4>Social Media Manager (2020 - 2021)</h4>
-                    <p>Current Lumiere Orphanage Home Facility - Forth Worth, TX</p>
+                    <p>Volunteering Lumiere Orphanage Home Facility - Forth Worth, TX</p>
                     <ul>
                         <li>Successfully spearhead campaigns on the social media platform Manage social media planning for the executn of marketing strategies and community management.</li>
                         <li>Implemented marketing and promotion tactics that lead, to an increase in website traffic from social media posts</li>
@@ -208,8 +207,8 @@ function Home() {
                     <img src="web.jpg" alt="" />
                 </div>
                 <div className="text">
-                    <h4>Web Developer (2018)</h4>
-                    <p>Online</p>
+                    <h4>Entry level front end web developer (2019 - 2020)</h4>
+                    <p>Remote Upwork</p>
                     <ul>
                         <li>Develop and implement quality best-in-class front-end code using leading-edge UX techniques across a broad array of interactive web and mobile projects.</li>
                         <li>Provided front-end website development using WordPress, Hub spot and other editing software. Utilizing advanced html, css, and JavaScript, develop advanced forms with validation, integrate social media development tools, display data using json, and designed creative user experiences.</li>
@@ -225,10 +224,10 @@ function Home() {
                     <img src="prod.jpg" alt="" />
                 </div>
                     <div className="text">
-                        <h4>Production Worker (2019 - 2020)</h4>
+                        <h4>Lead  Production(2017 - 2019)</h4>
                         <p>ATC – Fort Worth, TX</p>
                         <ul>
-                            <li>Drove digital and enterprise collaboration across functional teams, focusing on delivery and continuousprocess improvement.</li>
+                            <li>Drove digital and enterprise collaboration across functional teams, focusing on delivery and continuous process improvement.</li>
                             <li>Devised strategies and roadmaps to support product vision and value to business. Analyzed competitor pages to locate backlink and keyword opportunities.</li>
                             <li>Analyzed and reported social media and online marketing campaign results.</li>
                             <li>Oversaw day-to-day preparation, arranging, and coordinating the manufacturing of goods in line with the goals and objectives of the company Managed production equipment and machinery while keeping to company safety standards and Guidelines.</li>
